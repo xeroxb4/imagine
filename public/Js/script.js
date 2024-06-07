@@ -110,6 +110,14 @@ Math.floor(45/24);
 
 Math.random(45/24)*1000;
   
+// String in JavaScript
+// Concatenation
+const lastname = 'Amon';
+const firstname = 'Erasmos';
+const middlename = 'Ashie';
+firstname+' '+lastname +' '+ middlename;
+// Template Literal
+`${firstname} ${middlename} ${lastname}`;
   
   
   
