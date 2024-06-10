@@ -127,6 +127,14 @@ Math.random(45/24)*1000;
     participants.push(email);
     return 'Participant added'
   }
+// String in JavaScript
+// Concatenation
+const lastname = 'Amon';
+const firstname = 'Erasmos';
+const middlename = 'Ashie';
+firstname+' '+lastname +' '+ middlename;
+// Template Literal
+`${firstname} ${middlename} ${lastname}`;
   
   addParticipant('')
   addParticipant('xeroxb4@gmail.com')
