@@ -110,7 +110,78 @@ Math.floor(45/24);
 
 Math.random(45/24)*1000;
   
+  // write a funtion that will add a participant to Google Classroom
+
+  const participants = [];
+  function addParticipant(email){
+    // check if email was provided
+    if (email === undefined || email === null)
+      return 'No email provided';
+    
+    if (!email.includes('@gmail')){
+      return 'undefined';
+    }
+    
+    
+    // Add email participants
+    participants.push(email);
+    return 'Participant added'
+  }
   
+  addParticipant('')
+  addParticipant('xeroxb4@gmail.com')
+  addParticipant('xeroxb4@aol.com')
+
+
+
+// Arrays in JavaScript
+const users = [
+  {
+    username: 'xeroxb4',
+    password: '12345',
+    email: 'xeroxb4@gmail.com'
+  },
+  {
+    username: 'adansy',
+    password: '12345',
+    email: 'xeroxb4@aol.com'
+  },
+  {
+    username: 'octopit',
+    password: '12345',
+    email: 'xeroxb4@ymail.com'
+  }
+]
+
+users
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   
   
