@@ -215,6 +215,37 @@ numbers.filter(isOdd)
 
 
 
+// write a function that will allow a user to reset their password
+
+const user = {
+  email: 'xeroxb4@gmail.com',
+  password: '1234'
+}
+
+// 
+function resetPassword(letters,numbers,email){
+  // check if email and new password was provided
+  if (!email || !newPassword){
+    return "email or password not provided";
+  }
+  
+  // check if provided email is correct
+  if(email === user.email){
+    // update password with new one
+    user.password = newPassword;
+    return "Password reset successfully";
+  }
+  
+  if (email === !user.email){
+    return "Invalid email";
+  }
+  
+  
+}
+
+user;
+resetPassword("xeroxb4@gmail.com", "0987")
+
 
 
 
